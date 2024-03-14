@@ -1,0 +1,133 @@
+/* contact-section */
+
+.contact-section {
+  background: var(--extra-light);
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.contact .container .sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-right {
+  flex-basis: 55%;
+}
+
+.contact-left p {
+  padding-top: 30px;
+}
+
+.contact-left p i {
+  color: var(--text-light);
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: var(--text-light);
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+
+.contact-btn {
+  display: block;
+  margin: 40px auto;
+  width: fit-content;
+  border: 1px solid var(--extra-light);
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+.contact-btn:hover {
+  background: var(--extra-light);
+  color: var(--text-dark);
+}
+
+.contact-btn.contact-btn2 {
+  display: inline-block;
+  background: var(--extra-light);
+  border: solid 2px var(--text-dark);
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.contact-btn.contact-btn2:hover {
+  background: var(--text-dark);
+  color: var(--extra-light);
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+.contact-right form input,
+textarea {
+  width: 100%;
+  border: solid 2px var(--text-dark);
+  outline: none;
+  background: var(--extra-light);
+  margin: 15px 0;
+  padding: 15px;
+  color: var(--text-light);
+  font-size: 18px;
+  border-radius: 6px;
+}
+.contact-right form .btn2 {
+  padding: 14px 60px;
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: var(--text-dark);
+  font-weight: 300;
+  color: var(--extra-light);
+}
+.footer i {
+  color: var(--extra-light);
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: var(--extra-light);
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-section {
+    padding: 5rem 1rem 5rem 1rem;
+  }
+
+  .contact .container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
