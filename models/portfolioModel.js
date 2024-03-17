@@ -177,10 +177,14 @@ const socialSchema = new mongoose.Schema({
 })
 
 module.exports = {
-    Intro : mongoose.model("Intros", introSchema),
-    About : mongoose.model("About", introSchema),
-    Skills : mongoose.model("Skills", introSchema),
-    Experience : mongoose.model("Experience", introSchema),
-    Education : mongoose.model("Education", introSchema),
-
+    Intro : mongoose.model("intros", introSchema),
+    About : mongoose.model("abouts", aboutSchema),
+    Skills : mongoose.model("skills", skillsSchema),
+    Experience : mongoose.model("experiences", experienceSchema),
+    Education : mongoose.model("education", educationSchema),
+    Certification : mongoose.model("certifications", certificationSchema),
+    Portfolio : mongoose.model("portfolio", portfolioSchema),
+    Services : mongoose.model("services", serviceSchema),
+    Social : mongoose.model("socials", socialSchema),
+    Contact : mongoose.model("contact", contactSchema)
 }
