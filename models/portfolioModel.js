@@ -181,10 +181,10 @@ module.exports = {
     About : mongoose.model("abouts", aboutSchema),
     Skills : mongoose.model("skills", skillsSchema),
     Experience : mongoose.model("experiences", experienceSchema),
-    Education : mongoose.model("education", educationSchema),
+    Education : mongoose.model("educations", educationSchema),
     Certification : mongoose.model("certifications", certificationSchema),
-    Portfolio : mongoose.model("portfolio", portfolioSchema),
+    Portfolio : mongoose.model("portfolios", portfolioSchema),
     Services : mongoose.model("services", serviceSchema),
     Social : mongoose.model("socials", socialSchema),
-    Contact : mongoose.model("contact", contactSchema)
+    Contact : mongoose.model("contacts", contactSchema)
 }
