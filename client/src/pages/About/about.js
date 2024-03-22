@@ -7,12 +7,19 @@ import JavaScriptImage from "../../assets/js.png";
 import PythonImage from "../../assets/python.png";
 import ReactJSImage from "../../assets/physics.png";
 import AboutImage from "../../assets/about.jpg";
+import { useSelector } from "react-redux";
+
+
 const About = () => {
   const [activeTab, setActiveTab] = useState("skills");
-
   const opentab = (tabname) => {
     setActiveTab(tabname);
   };
+
+  const { portfolioData } = useSelector((state) => state.root);
+  const {about} = portfolioData;
+  const {aboutDescription, caption, introDescription} = about;
+
 
   return (
     <section className="about-section" id="about">
@@ -26,8 +33,7 @@ const About = () => {
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
               <p>
-                I'm a Blockchain Developer with 1 year experience in building
-                decentralized applications and contributed to a lot of projects.
+                {aboutDescription || " "}
               </p>
               <div className="tab-titles">
                 <p
