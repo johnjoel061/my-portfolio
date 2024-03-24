@@ -1,3 +1,4 @@
+const { array } = require("i/lib/util");
 const mongoose = require("mongoose");
 
 const introSchema = new mongoose.Schema({
@@ -36,7 +37,7 @@ const aboutSchema = new mongoose.Schema({
     },
 
     techStack :{
-        type: String,
+        type: Array,
         required: true
     }
 })
