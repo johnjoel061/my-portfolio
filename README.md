@@ -1,8 +1,9 @@
 # A personal portfolio to showcase my work, built with React and Ant Design. It also has a backend where I can manage informations shows in frontend like projects, skills and experiences.
 
 THIS IS THE HOMEPAGE 
-![Uploading Screenshot 2025-04-26 175011.png…]()
-![Screenshot 2025-04-26 175051](https://github.com/user-attachments/assets/15c9c796-ec27-4ed8-858d-25640a75a3c3)
+
+![Screen![Screenshot 2025-04-26 175011](https://github.com/user-attachments/assets/7bca68ac-25f7-4a3b-9add-b343a4e7c115)
+shot 2025-04-26 175051](https://github.com/user-attachments/assets/15c9c796-ec27-4ed8-858d-25640a75a3c3)
 ![Screenshot 2025-04-26 175105](https://github.com/user-attachments/assets/19295c22-ff39-41d3-9bfd-c29fadef75a1)
 ![Screenshot 2025-04-26 175120](https://github.com/user-attachments/assets/7dfd17de-6af6-44a3-ab94-4ff0f9e48f78)
 
