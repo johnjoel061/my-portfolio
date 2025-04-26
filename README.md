@@ -3,6 +3,7 @@
 THIS IS THE HOMEPAGE 
 
 ![Screenshot 2025-04-26 175011](https://github.com/user-attachments/assets/a8b40a9e-31c5-4675-b75e-1eeda08bcc85)
+![Screenshot 2025-04-26 175029](https://github.com/user-attachments/assets/727342dd-c9ad-4212-81af-ff9ae468e0ab)
 ![Screen![Screenshot 2025-04-26 175011](https://github.com/user-attachments/assets/7bca68ac-25f7-4a3b-9add-b343a4e7c115)
 shot 2025-04-26 175051](https://github.com/user-attachments/assets/15c9c796-ec27-4ed8-858d-25640a75a3c3)
 ![Screenshot 2025-04-26 175105](https://github.com/user-attachments/assets/19295c22-ff39-41d3-9bfd-c29fadef75a1)
